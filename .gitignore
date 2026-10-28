@@ -1,0 +1,5 @@
+node_modules/
+.env
+mailroom.db
+mailroom.db-shm
+mailroom.db-wal
