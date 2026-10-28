@@ -964,6 +964,6 @@ app.use((req, res) => {
 
 const port = Number(process.env.PORT || 8080);
 
-app.listen(port, () => {
+app.listen(port, "0.0.0.0", () => {
   console.log(`Safe AI mailroom listening on port ${port}`);
 });
