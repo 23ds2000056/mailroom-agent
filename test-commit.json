@@ -1,0 +1,17 @@
+{
+  "profile": "ga5-mailroom-action-gate/v2",
+  "operation": "commit",
+  "evaluationId": "local-test-eval-1",
+  "inputDigest": "cad352feb4415190a559d6a43263e3275ec7da6049eaaadde4df711e0145057c",
+  "receipts": [
+    {
+      "dossierId": "local-dossier-1",
+      "callId": "PASTE_YOUR_CALL_ID_HERE",
+      "action": "request_confirmation",
+      "accepted": true,
+      "proposalDigest": "0000000000000000000000000000000000000000000000000000000000000000",
+      "receiptId": "local-fake-receipt-1",
+      "receiptSignature": "AAAA"
+    }
+  ]
+}
