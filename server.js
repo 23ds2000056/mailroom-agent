@@ -640,7 +640,6 @@ async function callModel(dossier) {
       },
       body: JSON.stringify({
         model,
-        temperature: 0,
         response_format: { type: "json_object" },
         messages: [
           {
@@ -740,7 +739,6 @@ async function authorizeOutboundNotice(dossier, proposal) {
         },
         body: JSON.stringify({
           model: process.env.OPENAI_MODEL,
-          temperature: 0,
           response_format: { type: "json_object" },
           messages: [
             {
